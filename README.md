@@ -5,15 +5,12 @@ Real-Time AR Slicing
 Captures live video feed and turns it into a dynamic 3x3 interactive grid.
 Gesture-Based Interaction
 Start Gesture: Simply show your open palm to the camera to trigger the puzzle start.
-Selection & Swapping: Use a 2-second "hover-to-select" gesture to pick pieces.
-Visual Feedback: Includes a progress bar and highlight colors to track selection status.
-Dynamic Difficulty
+Selection & Swapping: Use a 2-second "hover-to-select" gesture to pick piecesDynamic Difficulty
 Automatically shuffles the image pieces upon starting the puzzle.
 Detects completion and displays a victory message.
 Optimized Performance
 High-resolution (720p) camera integration.
-Low-latency processing using OpenCV and MediaPipe.
-Project Structure
+Low-latency processing using OpenCV and MediaPipe.Project Structure
 code
 Text
 HandPuzzleGame/
@@ -67,5 +64,3 @@ Advanced Gestures: Implementing "Pinch-to-drag" for more fluid movement.
 Save/Load: Tracking high scores and fastest completion times.
 Disclaimer
 This project is an experimental computer vision application. Ensure you have adequate lighting in your room for the MediaPipe hand tracking to function optimally.
-Author
-[Sarbadipta Das]
